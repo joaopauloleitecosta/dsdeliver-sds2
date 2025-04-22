@@ -1,12 +1,14 @@
 import './App.css';
 import Counter from './Counter';
+import Home from './Home';
 import Navbar from './Navbar';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar />
-    </div>
+      <Home />
+    </>
   );
 }
 
