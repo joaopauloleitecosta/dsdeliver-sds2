@@ -4,6 +4,7 @@ import StepsHeader from './StepsHeader';
 import './styles.css';
 import { Product } from './types';
 import { fetchProducts } from '../api';
+import OrderLocation from './OrderLocation';
 
 function Orders() {
 
@@ -18,7 +19,8 @@ function Orders() {
     return (
         <div className="orders-container">
             <StepsHeader />
-            <ProductsList products={products} />            
+            <ProductsList products={products} /> 
+            <OrderLocation />           
         </div>
     )
 }
