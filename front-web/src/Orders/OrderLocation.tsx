@@ -32,87 +32,49 @@ type OptionType = {
 };
 
 const opcoesFixas: OptionType[] = [
-        
+  
     {
-      "value": "avenida_atlantica_rj",
-      "label": "Avenida Atlântica, Copacabana - Rio de Janeiro/RJ",
+      "value": "rua_ida_zaneta",
+      "label": "Rua Ida Zaneta",
       "position": {
-        "lat": -22.9711,
-        "lng": -43.1822
+        "lat": -28.4335,
+        "lng": -49.1790
       }
     },
     {
-      "value": "rua_das_pedras_buzios",
-      "label": "Rua das Pedras - Armação dos Búzios/RJ",
+      "value": "estrada_geral_azambuja",
+      "label": "Estrada Geral de Azambuja",
       "position": {
-        "lat": -22.7456,
-        "lng": -41.8815
+        "lat": -28.4447,
+        "lng": -49.1762
       }
     },
     {
-      "value": "avenida_beira_mar_fortaleza",
-      "label": "Avenida Beira Mar - Fortaleza/CE",
+      "value": "rua_jose_marcon",
+      "label": "Rua José Marcon",
       "position": {
-        "lat": -3.7184,
-        "lng": -38.5006
+        "lat": -28.4320,
+        "lng": -49.1800
       }
     },
     {
-      "value": "avenida_litoranea_sao_luis",
-      "label": "Avenida Litorânea - São Luís/MA",
+      "value": "rua_gabriel_s",
+      "label": "Rua Gabriel S",
       "position": {
-        "lat": -2.5000,
-        "lng": -44.3000
+        "lat": -28.4300,
+        "lng": -49.1750
       }
     },
     {
-      "value": "avenida_beira_mar_salvador",
-      "label": "Avenida Beira Mar - Salvador/BA",
+      "value": "estrada_geral_pedrinhas",
+      "label": "Estrada Geral - Bairro Pedrinhas",
       "position": {
-        "lat": -12.9714,
-        "lng": -38.5014
-      }
-    },
-    {
-      "value": "avenida_beira_mar_aracaju",
-      "label": "Avenida Beira Mar - Aracaju/SE",
-      "position": {
-        "lat": -10.9111,
-        "lng": -37.0717
-      }
-    },
-    {
-      "value": "avenida_beira_mar_natal",
-      "label": "Avenida Beira Mar - Natal/RN",
-      "position": {
-        "lat": -5.7945,
-        "lng": -35.2110
-      }
-    },
-    {
-      "value": "avenida_beira_mar_maceio",
-      "label": "Avenida Beira Mar - Maceió/AL",
-      "position": {
-        "lat": -9.6658,
-        "lng": -35.7350
-      }
-    },
-    {
-      "value": "avenida_beira_mar_recife",
-      "label": "Avenida Beira Mar - Recife/PE",
-      "position": {
-        "lat": -8.0476,
-        "lng": -34.8770
-      }
-    },
-    {
-      "value": "avenida_beira_mar_vitoria",
-      "label": "Avenida Beira Mar - Vitória/ES",
-      "position": {
-        "lat": -20.3155,
-        "lng": -40.3128
+        "lat": -28.4284,
+        "lng": -49.1212
       }
     }
+  
+  
     
 ];
 
