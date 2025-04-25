@@ -1,3 +1,5 @@
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Counter from './Counter';
@@ -15,6 +17,7 @@ function App() {
           <Route path="/orders" element={<Orders />} />
         </Routes>
       </BrowserRouter>
+      <ToastContainer />
     </>
   );
 }
